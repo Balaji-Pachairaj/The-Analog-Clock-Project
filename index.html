@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Clock Project</title>
+</head>
+<body>
+    <div class="header relative">
+        <p class="clockTicking absolute">Clock <span class="ticking">Ticking:</span> </p>
+    </div>
+    <div class="clockBox relative borderRadius50">
+        <div class="digitalTime absolute"><span id="hourDigit">12</span> : <span id="minuteDigit">12</span> : <span id="secondDigit">12</span></div>
+        <div class="outter relative borderRadius50">
+            <p class="t12 tText absolute left50 Xtranslate">12</p>
+            <p class="t3 tText absolute top50 Ytranslate">3</p>
+            <p class="t6 tText absolute left50 Xtranslate">6</p>
+            <p class="t9 tText absolute top50 Ytranslate">9</p>
+            <div class="centerDisc absolute top50 left50 borderRadius50">
+                <div id="hourHand" class="hourHand absolute top50 left50 ">
+                    <div class="firstHalf black"></div>
+                </div>
+                <div id="minuteHand" class="minuteHand absolute top50 left50 ">
+                    <div class="firstHalf black"></div>
+                </div>
+                <div id="secondHand" class="secondHand absolute top50 left50 ">
+                    <div class="firstHalf black"></div>
+                </div>
+                <div class="centerCenter absolute top50 left50 borderRadius50"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to left ,rgb(220, 200, 200) , rgb(228, 228, 161));
+}
+/*-------------------------------*/
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+.borderRadius50{
+    border-radius: 50%;
+}
+.top50 {
+    top: 50%;
+}
+
+.left50 {
+    left: 50%;
+}
+
+.Xtranslate {
+    transform: translateX(-50%);
+}
+
+.Ytranslate {
+    transform: translateY(-50%);
+}
+.black{
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+/*----------------------------------------------------------*/
+.clockTicking{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: 600;
+}
+.ticking{
+    color: blue;
+}
+.clockBox{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 30px 0 0 50% ;
+    transform: translateX(-50%); 
+}
+.outter:hover{
+    box-shadow: 2px 8px 100px  10px rgba(0, 0, 0, 0.533);
+}
+.outter{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgb(61, 5, 116),violet);
+    border: 10px solid brown;
+    transform: translate(-3%,-3%);
+}
+/*---------------Digital clock-------------------------*/
+
+.digitalTime{
+    width: 145px;
+    height: 30px;
+    background-color: rgb(169, 167, 167);
+    color: rgb(242, 242, 96);
+    right: -20%;
+    z-index: 1;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    border-radius: 20%;
+}
+/*---------------Analog clock-------------------------*/
+.tText{
+    margin: 0;
+    font-size: 300%;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+}
+.t12{
+   top: -1%;
+}
+.t6{
+   bottom: -5%;
+}
+.t3{
+   right: 3%;
+}
+.t9{
+    left: 3%;
+}
+/*--------------------------------------*/
+.centerDisc{
+    width: 60%;
+    height: 60%;
+    background-image:repeating-linear-gradient(red,yellow);
+    transform: translate(-50%,-50%);
+}
+.centerCenter{
+    width: 7%;
+    height: 7%;
+    background-color: yellow;
+    transform: translate(-50%,-50%);
+}
+/*-----------------------------------*/
+.hourHand{
+    transform: translate(-50%,-50%)  ;
+    height: 98%;
+    width: 7px;
+}
+.secondHand{
+    transform: translate(-50%,-50%) ;
+    height: 140%;
+    width: 2px;
+}
+.minuteHand{
+    transform: translate(-50%,-50%) ;
+    height: 125%;
+    width: 5px;
+} 
+/*-----------------------------------*/
+.firstHalf{
+    width: 100%;
+    height: 50%;
+}
+
+
