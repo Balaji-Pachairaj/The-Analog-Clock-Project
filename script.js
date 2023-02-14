@@ -5,6 +5,8 @@ const hourDigitalEl = document.getElementById("hourDigit");
 const minuteDigitalEl = document.getElementById("minuteDigit");
 const secondDigitalEl = document.getElementById("secondDigit");
 const tl = "translate(-50%,-50%)";
+
+
 function getTime(a){
     let current = new Date ;
     if (a==1) return current.getSeconds();
